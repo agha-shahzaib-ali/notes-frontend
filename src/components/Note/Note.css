@@ -26,15 +26,27 @@
     position: relative;
     top: -5px;
 }
-.note:hover{
-    /* background-color: red; */
-    transform: scale(1.5);
+.note:hover
+{
+    transform: scale(1.25);
     cursor: pointer;
     z-index: 5;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+.note.note--focussed
+{
+    transform: scale(1.5);
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.note .btn-close{
+    margin-left: 7em;
+    margin-bottom: 0.5em;
+}
 .note__text{
     flex:1;
+    outline:none;
 }
 .note__link{
     display: none;

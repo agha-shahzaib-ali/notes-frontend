@@ -8,9 +8,23 @@
   margin: 50px 0px;
 }
 
+.App .add-button {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  border-radius: 20px;
+  transform: scale(1.15);
+  font-size: 18px;
+}
+
+
 .notes_list{
   /* margin-top: 5%; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.note-link{
+  margin-top: 10px;
 }
